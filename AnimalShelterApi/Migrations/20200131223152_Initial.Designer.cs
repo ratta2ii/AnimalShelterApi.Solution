@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AnimalShelterApi.Migrations
 {
     [DbContext(typeof(AnimalShelterApiContext))]
-    [Migration("20200131195957_Initial")]
+    [Migration("20200131223152_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,7 +23,7 @@ namespace AnimalShelterApi.Migrations
                     b.Property<int>("PetId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("Age");
+                    b.Property<string>("Age");
 
                     b.Property<string>("Color");
 
@@ -39,7 +39,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 1,
-                            Age = 7,
+                            Age = "7",
                             Color = "black",
                             Name = "Fred",
                             Species = "Cat"
@@ -47,7 +47,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 2,
-                            Age = 3,
+                            Age = "3",
                             Color = "white",
                             Name = "Chubs",
                             Species = "Cat"
@@ -55,7 +55,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 3,
-                            Age = 5,
+                            Age = "5",
                             Color = "black/white",
                             Name = "Teddy",
                             Species = "Dog"
@@ -63,7 +63,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 4,
-                            Age = 10,
+                            Age = "10",
                             Color = "tan",
                             Name = "Billy",
                             Species = "Cat"
@@ -71,7 +71,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 5,
-                            Age = 1,
+                            Age = "3",
                             Color = "black/white",
                             Name = "Snoopy",
                             Species = "Dog"
@@ -79,7 +79,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 6,
-                            Age = 6,
+                            Age = "6",
                             Color = "brown",
                             Name = "Bear",
                             Species = "Dog"
@@ -87,7 +87,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 7,
-                            Age = 11,
+                            Age = "11",
                             Color = "gray",
                             Name = "Hulk",
                             Species = "Dog"
@@ -95,7 +95,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 8,
-                            Age = 12,
+                            Age = "12",
                             Color = "black",
                             Name = "Medusa",
                             Species = "Cat"
@@ -103,7 +103,7 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 9,
-                            Age = 7,
+                            Age = "7",
                             Color = "black/brown",
                             Name = "Hercules",
                             Species = "Dog"
@@ -111,9 +111,9 @@ namespace AnimalShelterApi.Migrations
                         new
                         {
                             PetId = 10,
-                            Age = 9,
+                            Age = "9",
                             Color = "gray",
-                            Name = "Pythagorous",
+                            Name = "Pythagrous",
                             Species = "Cat"
                         });
                 });
