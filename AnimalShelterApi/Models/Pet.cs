@@ -9,6 +9,7 @@ namespace AnimalShelterApi.Models
         public string Species { get; set; }
         public string Name { get; set; }
         public string Color { get; set; }
+        public int Age { get; set; }
         public bool Available { get; set; }
     }
 
