@@ -3,7 +3,7 @@
 ###### By Trevor Mackin 01/31/2020  
 #
 ## Description
-__The goal of this project was to build an application where an animal shelter site would become the provider of an API. The site then allows users to search for various animals by using query parameters. The application also demonstrates how to seed a database, and how to take full advantage of Swagger when it comes to RESTful API's. The project is written in C# with ASP.NET framework.__
+__The goal of this project was to build an application where an animal shelter site would become the provider of an API. The site then allows users to search for various animals by using query parameters. The application also demonstrates how to seed a database, and how to integrate with Swagger to gain access to the tools surrounding RESTful API's. The project is written in C# with ASP.NET framework.__
 
 ## Setup/Installation Requirements
 
